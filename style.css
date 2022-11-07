@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main1{
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 23px;
+    position: fixed;
+    width: 100vw;
+    top: -24px;
+    background-color: black;
+    height: 88px;
+    overflow: hidden;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    overflow: hidden;
+    height: 17vh;
+}
+
+.logo img{
+    width: 19vw;
+    border-radius: 38px;
+    width: 15vw;
+}
+
+ul{
+    display: flex;
+    
+}
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 23px;
+    color: white;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    background-color: deeppink;
+    color: white;
+    border-radius: 13px;
+    width: 92px;
+    height: 24px;
+    border: 0px;
+}
+
+button:hover{
+    background-color: rgb(56, 54, 54);
+}
+
+.main{
+    color: white;
+    height: 73vh;
+    width: 36vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hello{
+    color: white;
+    margin: 105px;
+    margin-bottom: 1px;
+}
+
+.name{
+    display: flex;
+    margin: 102px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.first{
+    color: white;
+    font-size: 77px;
+}
+
+.las{
+    color: deeppink;
+    font-size: 77px;
+    margin-left: 14px;
+}
+
+.web{
+    color: white;
+    margin-left: 108px;
+}
+
+.letstart{
+    margin-left: 108px;
+    margin-top: 45px;
+}
+
+.page2{
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2inner{
+    display: flex;
+    height: 614px;
+    width: 666px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image2 img{
+    height: 52vh;
+    width: 22vw;
+}
+
+.aboutme{
+    margin-left: 29px;
+}
+
+.text{
+    font-size: 60px;
+    color: white;
+}
+
+.developer{
+    display: flex;
+}
+
+.d1{
+    color: white;
+}
+
+.d2{
+    color: deeppink;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.textcontent{
+    color: darkgrey;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 33px;
+    font-family : 'Ubuntu', sans-serif;
+}
+
+.page3{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3content{
+    height: 59vh;
+    width: 100vw;
+}
+
+.sevices{
+    text-align: center;
+    font-size: 31px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    height: 290px;
+    margin-top: 40px;
+}
+
+.box2{
+    width: 226px;
+    height: 328px;
+    background-color: dimgrey;
+    border-radius: 131px;
+}
+
+.box2 img{
+    width: 100%;
+    height: 131px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 23px;
+}
+
+.page3text{
+    color: darkgray;
+    /* display: flex; */
+    text-align: center;
+}
+
+.button1{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.page4{
+    background-color: black;
+    color: white;
+    height: 30vh;
+}
+
+.page4content{
+    height: 23vh;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page4text{
+    font-size: 42px;
+}
+
+.button3{
+    margin-top: 14px;
+}
+
+.thanks{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+
